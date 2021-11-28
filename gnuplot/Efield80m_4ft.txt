@@ -1,0 +1,15 @@
+# E-field at 4 feet height from floor in loop center. x-axis is horizontal on
+# loop plane, y-axis vertical on loop plane and z-axis trasnverse to loop 
+# plane. Vertical field Ey has large ambient background and this gives
+# large error to values. Attempt was made to subtract this background
+# from reading, but this is likely show as large systemtic error in the 
+# measurement. At 2 feet distance and closer Ey is outside of calibration
+# range. 
+#
+# Distance[feet]  Ex[V/m]    Ey[V/m]     Ez[V/m]
+0.75              3.41324    -           3.69446    
+2                 2.95049    9.4         2.87176
+3                 1.77481    4.37763     2.53163
+4                 1.55772    4.00992     2.60346
+5                 2.9968     4.37763     1.49618 
+6                 2.65596    4.05514     0.709025

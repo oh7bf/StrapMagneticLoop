@@ -1,0 +1,24 @@
+#!/usr/bin/gnuplot
+# Gnuplot script to plot magnetic field vs distance. 
+
+set title "Magnetic Field Loop Center"
+set xlabel "distance[ft]"
+set ylabel "H[A/m]"
+
+#set key left top 
+#set key center top 
+#set key at 0.90, 98 
+#set key at 1.47, 98 
+
+set grid
+#set yrange [0:100]
+
+set style line 1 linecolor "red" linewidth 2
+
+#set term png
+#set output "Hfield80m_4ft.png"
+set term pdf
+set output "Hfield80m_4ft.pdf"
+
+plot "Hfield80m_4ft.txt" using 1:2 with linespoints ls 1 title "4 feet height"
+

@@ -1,0 +1,9 @@
+# H-field at 4 feet height from floor in loop center. At 6 feet H-field is 
+# below detection threshold 0.17 A/m and stays there when moving sidewise.
+#
+# Distance[feet]  H[A/m]
+0.75              0.888432
+2                 0.5753
+3                 0.389893
+4                 0.248849
+5                 0.202168
